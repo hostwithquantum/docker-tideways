@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM quay.io/hostwithquantum/debian:stable-slim
 
 ARG TIDEWAYS_ENVIRONMENT_DEFAULT=production
 ENV TIDEWAYS_ENVIRONMENT=$TIDEWAYS_ENVIRONMENT_DEFAULT
